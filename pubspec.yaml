@@ -1,0 +1,21 @@
+# Мета-информация Проекта
+name: client
+description: Client China Trainer
+version: 0.1.0
+publish_to: "none"
+
+# Версии зависимостей
+environment:
+  sdk: ">=3.0.2 <3.10.2"
+
+# Зависимости Проекта
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  http: ^1.0.0
+  flutter_drawing_board: ^0.7.0+2
+
+# Настройки flutter'а
+flutter:
+  uses-material-design: true
